@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS Layout Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Container using CSS Grid -->
+    <div class="container">
+        
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>TechBlog</h1>
+                </div>
+                <div class="header-info">
+                    <span class="contact">📧 contact@techblog.com</span>
+                    <span class="phone">📱 +254 123 456 789</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Bar using Flexbox -->
+        <nav class="navigation">
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Modern Web Development</h2>
+                    <p>Mastering CSS Grid, Flexbox, and Responsive Design for the Modern Web</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Articles</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50K+</h3>
+                            <p>Readers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>Tutorials</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Articles Section -->
+            <section class="featured-articles">
+                <h2>Featured Articles</h2>
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <div class="article-image">🌐</div>
+                        <div class="article-content">
+                            <h3>CSS Grid Fundamentals</h3>
+                            <p>Learn the basics of CSS Grid layout system and how to create complex two-dimensional layouts with ease.</p>
+                            <div class="article-meta">
+                                <span class="date">Jan 15, 2025</span>
+                                <span class="read-time">5 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">📱</div>
+                        <div class="article-content">
+                            <h3>Responsive Design Patterns</h3>
+                            <p>Explore modern responsive design patterns and techniques for creating mobile-first web experiences.</p>
+                            <div class="article-meta">
+                                <span class="date">Jan 10, 2025</span>
+                                <span class="read-time">7 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">🎨</div>
+                        <div class="article-content">
+                            <h3>Flexbox Complete Guide</h3>
+                            <p>Master Flexbox with practical examples and learn when to use it for optimal layout solutions.</p>
+                            <div class="article-meta">
+                                <span class="date">Jan 8, 2025</span>
+                                <span class="read-time">8 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">⚡</div>
+                        <div class="article-content">
+                            <h3>Modern CSS Techniques</h3>
+                            <p>Discover cutting-edge CSS features and techniques that will elevate your web development skills.</p>
+                            <div class="article-meta">
+                                <span class="date">Jan 5, 2025</span>
+                                <span class="read-time">6 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">🔧</div>
+                        <div class="article-content">
+                            <h3>CSS Custom Properties</h3>
+                            <p>Learn how to use CSS custom properties (variables) to create maintainable and flexible stylesheets.</p>
+                            <div class="article-meta">
+                                <span class="date">Jan 3, 2025</span>
+                                <span class="read-time">4 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card">
+                        <div class="article-image">🚀</div>
+                        <div class="article-content">
+                            <h3>Performance Optimization</h3>
+                            <p>Optimize your CSS for better performance and faster loading times across all devices.</p>
+                            <div class="article-meta">
+                                <span class="date">Dec 28, 2024</span>
+                                <span class="read-time">9 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Newsletter Section -->
+            <section class="newsletter">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Get the latest web development tips and tutorials delivered to your inbox.</p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>Popular Topics</h3>
+                <ul class="topic-list">
+                    <li><a href="#html5">HTML5 & Semantic Markup</a></li>
+                    <li><a href="#css3">CSS3 & Advanced Styling</a></li>
+                    <li><a href="#javascript">JavaScript & ES6+</a></li>
+                    <li><a href="#responsive">Responsive Web Design</a></li>
+                    <li><a href="#accessibility">Web Accessibility</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Recent Comments</h3>
+                <div class="comment">
+                    <p><strong>Sarah M.</strong></p>
+                    <p>"Great explanation of CSS Grid! Finally understand how it works."</p>
+                </div>
+                <div class="comment">
+                    <p><strong>John D.</strong></p>
+                    <p>"The flexbox tutorial helped me solve a layout issue I've been stuck on."</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Maria L.</strong></p>
+                    <p>"Love the responsive design examples. Very practical!"</p>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Resources</h3>
+                <div class="resource-links">
+                    <a href="#mdn" class="resource-link">
+                        <h4>MDN Web Docs</h4>
+                        <p>Comprehensive web development documentation</p>
+                    </a>
+                    <a href="#caniuse" class="resource-link">
+                        <h4>Can I Use</h4>
+                        <p>Browser compatibility tables</p>
+                    </a>
+                    <a href="#codepen" class="resource-link">
+                        <h4>CodePen</h4>
+                        <p>Frontend code playground</p>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TechBlog</h4>
+                    <p>Your source for modern web development tutorials and insights.</p>
+                    <div class="social-links">
+                        <a href="#twitter">Twitter</a>
+                        <a href="#github">GitHub</a>
+                        <a href="#linkedin">LinkedIn</a>
+                        <a href="#youtube">YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#tutorials">Tutorials</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#newsletter">Newsletter</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#frontend">Frontend</a></li>
+                        <li><a href="#backend">Backend</a></li>
+                        <li><a href="#design">Design</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 hello@techblog.com</p>
+                    <p>📱 +254 123 456 789</p>
+                    <p>📍 Nairobi, Kenya</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechBlog. All rights reserved. | Built with CSS Grid & Flexbox</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
